@@ -1,7 +1,19 @@
 # WANG-MARTIAN
 
 **Martian War** — the classic Wang 2200 BASIC game by Ralf Berger (1980/81), ported to a single-file web page.
-Open [`index.html`](index.html) in any browser (desktop, phone, tablet; touch controls are shown automatically).
+
+## Quick start
+
+No installation, no server, no dependencies: the whole game is **one HTML file**.
+
+1. Download `index.html` from the [latest release](https://github.com/fpracek/WANG-MARTIAN/releases/latest)
+   (or from this repository).
+2. Open it in any modern browser (double-click the file). It works on desktop, phone and tablet; touch buttons
+   appear automatically on touch screens.
+3. At the first screen press **Enter**, choose the level with `1`, `2` or `3` and **Enter**, answer `Y` for sound
+   effects (or anything else for silence) and **Enter**. Any key skips the opening animation.
+
+You can also host the file anywhere (GitHub Pages, any web server): it needs nothing else.
 
 ## Controls
 | Key | Action |
