@@ -301,9 +301,8 @@ async function humansRun(){   // 600-910
       for(const id of ids){ spr(id,y); if(!skip){ await frame(); if(keyq.length){ skip=true; keyq.length=0; } } }   // i 6 disegni formano la corsa: vanno visti in sequenza
       if(j1===1) y+=3; else if(j!==m) y-=3;
     }
-    // l'uomo fermo cade in 5k (come il ridisegno finale), non in 5k+1: altrimenti restano due sagome sovrapposte
-    spr('50',y-1); if(!skip) await sleep(60); spr('51',y-2); if(!skip) await sleep(60);
-    spr('200',y-1); clr(21,y-1,1); clr(22,y-2,1);   // cancella i residui di '50/'51
+    // l'uomo fermo cade in 5k (come il ridisegno finale); le transizioni '50/'51 dell'originale sono saltate
+    spr('200',y-1);
   }
 }
 

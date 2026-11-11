@@ -29,6 +29,15 @@ keeping the Wang BASIC-2 semantics that matter (an `IF..THEN` governs only one s
 
 Rebuild: `python tools/gen_data.py && python tools/build.py` (the paths inside `gen_data.py` point to the author's machine; adjust them).
 
+## License
+
+The code written for this port (the Wang 2236 terminal emulation, the renderer, the JavaScript game logic, the
+build scripts) is released under the [MIT License](LICENSE) and can be used, modified and redistributed anywhere.
+
+Note: this is a port of an existing program. The *game itself* (its design, graphics and original BASIC source)
+was created by Ralf Berger at Wang Laboratories (1980/81); its rights remain with its authors, and the MIT license
+of this repository cannot grant rights over their work. The port is published for preservation and study.
+
 ## Credits
-- Game: Ralf Berger, Wang Laboratories (1980/81). This repository only contains a port for preservation and study.
+- Game: Ralf Berger, Wang Laboratories (1980/81).
 - Terminal character generator tables: [WangEmu](https://github.com/jimbattle/wangemu) by Jim Battle (MIT, see `NOTICE`).
